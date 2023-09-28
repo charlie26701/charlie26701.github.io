@@ -4,7 +4,8 @@ const nextConfig = {
     reactStrictMode: true,
     trailingSlash: true,
     output: 'export',
-    assetPrefix: './',
+    assetPrefix: '',
+    basePath: '',
 };
 
 module.exports = nextConfig;
